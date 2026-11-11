@@ -44,5 +44,5 @@ export const clients = [
   "Урал Союзлифтмонтаж", "ЕМУП «Спецавтобаза»", "ГУП СО «Возрождение»",
 ];
 
-// Файлы лежат в папке public: 1.jpg … 7.jpg
-export const docs = [1, 2, 3, 4, 5, 6, 7].map((n) => ({ n, src: `${import.meta.env.BASE_URL}${n}.jpg` }));
+// Файлы лежат в папке public: 1.jpg … 5.jpg
+export const docs = [1, 2, 3, 4, 5].map((n) => ({ n, src: `${import.meta.env.BASE_URL}${n}.jpg` }));
