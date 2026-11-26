@@ -1,6 +1,6 @@
 export const PHONE = "+7 (343) 2222-112";
 export const PHONE_HREF = "tel:+73432222112";
-export const ORDER_URL = "https://www.fanton-ekb.org/zakazat-uslugi-chop";
+export const ORDER_URL = "tel:+73432222112";
 
 export const nav = [
   ["#services", "Услуги"],

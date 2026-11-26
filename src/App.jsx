@@ -106,7 +106,7 @@ export default function App() {
             <p>Коммерческий отдел — по вопросам сотрудничества. Подберём решение и рассчитаем стоимость.</p>
             <a className="phone" href={PHONE_HREF}>{PHONE}</a>
             <p style={{ marginTop: 0 }}>Звоните в любое время</p>
-            <a className="btn" href={ORDER_URL}>Оформить заявку</a>
+            <a className="btn" href={ORDER_URL}>Позвонить</a>
           </div>
         </section>
       </main>
