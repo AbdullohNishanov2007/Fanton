@@ -28,7 +28,7 @@ function Hero() {
         <h1>Надёжная охрана вашего бизнеса в Екатеринбурге</h1>
         <p>Частное охранное предприятие «Фантон» более 10 лет обеспечивает безопасность объектов, мероприятий и частных лиц в Екатеринбурге и Свердловской области.</p>
         <div className="row">
-          <a className="btn" href="#contact">Оформить заявку</a>
+          <a className="btn" href={PHONE_HREF}>Позвонить</a>
           <a className="btn ghost" href="#services">Наши услуги</a>
         </div>
         <div className="stats">
