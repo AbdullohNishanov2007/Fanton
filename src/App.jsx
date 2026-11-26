@@ -4,14 +4,7 @@ import { PHONE, PHONE_HREF, ORDER_URL, nav, stats, services, advantages, clients
 function Logo() {
   return (
     <a className="logo" href="#top" aria-label="Фантон">
-      ФАН
-      <svg className="sw" viewBox="0 0 20 32" aria-hidden="true">
-        <circle cx="10" cy="3" r="2.4" />
-        <rect x="8.7" y="5" width="2.6" height="4.5" />
-        <rect x="1.5" y="9" width="17" height="3.2" rx="1.6" />
-        <polygon points="7.3,12.2 12.7,12.2 12.7,25.5 10,31.5 7.3,25.5" />
-      </svg>
-      ОН
+      <img src={`${import.meta.env.BASE_URL}Logo_2.jpeg`} alt="Фантон — частное охранное предприятие" />
     </a>
   );
 }
